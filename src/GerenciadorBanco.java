@@ -1,16 +1,15 @@
-//package src;
+
 
 import java.sql.*;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 public class GerenciadorBanco {
 
     public static void salvarDados(Banco banco) {
         // No SQLite, os dados já estão salvos automaticamente
-        // Este método é mantido para compatibilidade com a interface existente
+        // Este método é mantido para compatibilidade com o gerenciador ja existente do sistema com json
         System.out.println(" Dados persistidos no SQLite");
     }
 

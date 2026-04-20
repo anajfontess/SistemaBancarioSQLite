@@ -3,12 +3,12 @@ import java.util.Optional;
 import java.util.Random;
 
 public class Menu {
-    private EntradaUsuario entrada;
+    private final EntradaUsuario entrada;
     private Banco banco;
     private Usuario usuarioLogado;
     
     // REMOVIDO: referência ao arquivo JSON
-    // private static final String ARQUIVO_DADOS = "resources/dados_banco.json";
+    // private static final String ARQUIVO_DADOS = "data/dados_banco.json";
 
     public Menu() {
         this.entrada = new EntradaUsuario();

@@ -4,7 +4,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class DatabaseConnection {
-    private static final String URL = "jdbc:sqlite:banco_bancario.db";
+    private static final String URL = "jdbc:sqlite:data/banco_bancario.db";
     
     public static Connection getConnection() throws SQLException {
         try {
