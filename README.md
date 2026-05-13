@@ -1,6 +1,6 @@
-# Sistema Bancário - Projeto Java com persistência em JSON
+# Sistema Bancário - Projeto Java com persistência em SQL
 Sistema bancário desenvolvido em Java para aprendizado pessoal.
-Permite cadastro de usuários (Pessoa Física e Jurídica), criação de contas corrente e poupança, operações bancárias (saque, depósito) e persistência dos dados em arquivo JSON.
+Permite cadastro de usuários (Pessoa Física e Jurídica), criação de contas corrente e poupança, operações bancárias (saque, depósito) e persistência dos dados em arquivo SQL.
 
 ## Funcionalidades
 ### Usuários
@@ -22,7 +22,7 @@ Permite cadastro de usuários (Pessoa Física e Jurídica), criação de contas 
 
 ## Estrutura do Projeto
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```bash
 .
